@@ -1,0 +1,40 @@
+/* Styles for the body */
+body {
+    background-color: black; /* Set background color to black */
+    display: flex; /* Allow centering elements vertically and horizontally */
+    justify-content: center; /* Center elements horizontally */
+    align-items: center; /* Center elements vertically */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styles for the footer */
+  footer {
+    position: absolute; /* Position footer at the bottom */
+    bottom: 0; /* Align footer to the bottom */
+    left: 0; /* Align footer to the left */
+    width: 100%; /* Set footer width to 100% */
+    text-align: left; /* Center text within the footer */
+    color: white; /* Set text color to white */
+    padding: 10px; /* Add some padding */
+  }
+  
+  /* Styles for the band div */
+  .band {
+    text-align: center; /* Center text within the band div */
+    color: white; /* Set text color to white */
+  }
+  
+  /* Styles for the input button */
+  input[type="submit"] {
+    background-color: blue; /* Set background color to pink */
+    border: none; /* Remove border */
+    color: greenyellow; /* Set text color to white */
+    padding: 10px 20px; /* Add some padding */
+    border-radius: 5px; /* Add rounded corners */
+    font-weight: bolder;
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  input[type="submit"]:hover{
+    background-color: red;
+  }

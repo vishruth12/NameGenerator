@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Name Generator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="band">
+        <% if(locals.rname) {%>
+        <h1>Your Rocking name is <%= rname %></h1>
+        <form action="submit" method="post">
+            <input type="submit" value="Generate">
+        </form>
+        <% }else{ %>
+        <h1>Your Rocking name is </h1>
+        <form action="submit" method="post">
+            <input type="submit" value="Generate">
+        </form>
+        <% } %>
+    </div>
+<footer>
+    <p> Copyright © <%= datern %>. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
